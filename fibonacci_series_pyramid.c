@@ -5,13 +5,6 @@ int fibonacci_series(int x){
         return (x-1);
     }
     return fibonacci_series(x-1)+fibonacci_series(x-2);
-    // int first = 0, second = 1, next;
-    // if (x==1){
-    //     printf("%d",first);
-    // }
-    // else if (x==2){
-    //     printf("second")
-    // }
 }
 int main()
 {
@@ -27,4 +20,5 @@ int main()
         printf("\n");
     }
     return 0 ; 
+
 }
