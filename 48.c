@@ -1,14 +1,14 @@
-// Q48: Write a program to print the following pattern:
-// 1
-// 12
-// 123
-// 1234
-// 12345
+//Q: Write a program to print the following pattern:
+// *****
+// ****
+// ***
+// **
+// *
 #include<stdio.h>
 int main(){
-    for(int i = 1 ; i<6 ; i++){
-        for(int j = 1 ; j<=i ; j++){
-            printf("%d",j);
+    for(int i = 5 ; i>=1 ;i--){
+        for(int j = 1; j<=i ; j++){
+            printf("*");
         }
         printf("\n");
     }
